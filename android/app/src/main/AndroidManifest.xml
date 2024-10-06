@@ -3,7 +3,7 @@
         android:label="actividad01_flutter_oscarluque"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
-        <activity
+            <activity
             android:name=".MainActivity"
             android:exported="true"
             android:launchMode="singleTop"

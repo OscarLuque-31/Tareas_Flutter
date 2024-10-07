@@ -8,7 +8,10 @@ class Enlace1 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Imagenes en columna"),
+        backgroundColor: const Color(0xFF141a35), // Color de fondo del Drawer
+        foregroundColor: Colors.white,
       ),
+      backgroundColor: const Color.fromARGB(255, 189, 219, 252),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceAround,

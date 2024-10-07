@@ -9,9 +9,13 @@ class Enlace3 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Iconos"),
+        backgroundColor: const Color(0xFF141a35), // Color de fondo del Drawer
+        foregroundColor: Colors.white,
       ),
+      backgroundColor: const Color.fromARGB(255, 189, 219, 252),
       body: Center(
-        child: Column(  // Cambiar Row por Column para apilar en vertical
+        child: Column(
+          // Cambiar Row por Column para apilar en vertical
           mainAxisAlignment: MainAxisAlignment.center, // Centrar verticalmente
           children: [
             Text(

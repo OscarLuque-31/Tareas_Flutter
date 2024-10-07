@@ -8,9 +8,12 @@ class Enlace2 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Imagenes en fila"),
+        backgroundColor: const Color(0xFF141a35), // Color de fondo del Drawer
+        foregroundColor: Colors.white,
       ),
+      backgroundColor: const Color.fromARGB(255, 189, 219, 252),
       body: Center(
-       child: Row(
+        child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
             Image.network(

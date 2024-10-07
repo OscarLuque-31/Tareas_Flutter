@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'enlace1.dart';
 import 'enlace2.dart';
-import 'enlace3.dart'; // Asegúrate de importar Enlace3
+import 'enlace3.dart';
 
 class MenuLateral extends StatelessWidget {
   const MenuLateral({super.key});
@@ -9,21 +9,26 @@ class MenuLateral extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Drawer(
+      backgroundColor: const Color(0xFF141a35), // Color de fondo del Drawer
       child: ListView(
+        padding: EdgeInsets.zero, // Elimina el padding por defecto
         children: <Widget>[
-          const UserAccountsDrawerHeader(
-            accountName: Text("Óscar Luque"),
-            accountEmail: Text("oluqhid3101@g.educaand.es"),
+          const DrawerHeader(
             decoration: BoxDecoration(
-              image: DecorationImage(
-                image: NetworkImage(
-                    "https://img.freepik.com/vector-gratis/fondo-negro-degradado-texturas-doradas_23-2149154119.jpg"),
-                fit: BoxFit.cover,
+              color: Color.fromARGB(255, 189, 219, 252),
+            ),
+            child: Text(
+              'Menú de Navegación',
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 24,
+                height: 9,
               ),
             ),
           ),
           ListTile(
-            tileColor: const Color.fromARGB(255, 0, 0, 0),
+            leading: const Icon(Icons.grid_view,
+                color: Colors.white), // Icono para imágenes en columna
             title: const Text(
               "Imágenes en columna",
               style: TextStyle(color: Colors.white),
@@ -38,9 +43,11 @@ class MenuLateral extends StatelessWidget {
             },
           ),
           ListTile(
+            leading: const Icon(Icons.view_list,
+                color: Colors.white), // Icono para imágenes en fila
             title: const Text(
               "Imágenes en fila",
-              style: TextStyle(color: Colors.black),
+              style: TextStyle(color: Colors.white),
             ),
             onTap: () {
               Navigator.of(context).pop();
@@ -52,7 +59,8 @@ class MenuLateral extends StatelessWidget {
             },
           ),
           ListTile(
-            tileColor: const Color.fromARGB(255, 0, 0, 0), 
+            leading: const Icon(Icons.photo,
+                color: Colors.white), // Icono para iconos
             title: const Text(
               "Iconos",
               style: TextStyle(color: Colors.white),

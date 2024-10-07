@@ -14,30 +14,38 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: const Text("Tarea 1 Flutter"),
+          backgroundColor: const Color(0xFF141a35),
+          foregroundColor: Colors.white,
         ),
+        backgroundColor: const Color.fromARGB(255, 189, 219, 252),
         drawer: const MenuLateral(),
         body: Center(
           child: Column(
-            //Column para apilar los textos
             mainAxisAlignment:
-                MainAxisAlignment.center, //Centra el contenido verticalmente
+                MainAxisAlignment.center, // Centra el contenido verticalmente
             children: [
               Text(
                 "Óscar Luque Hidalgo",
                 style: GoogleFonts.abel(
-                    fontSize: 24, color: const Color.fromARGB(255, 0, 0, 0)),
+                  fontSize: 24,
+                  color: Colors.black,
+                ),
               ),
-              const SizedBox(height: 30), //Espacio entre los textos
+              const SizedBox(height: 30),
               Text(
                 "Repositorio",
                 style: GoogleFonts.openSans(
-                    fontSize: 20,
-                    color: Colors.black),
+                  fontSize: 20,
+                  color: Colors.black,
+                ),
               ),
               const SizedBox(height: 5),
               Text(
                 "https://github.com/OscarLuque-31/Tarea1_Flutter.git",
-                style: GoogleFonts.openSans(fontSize: 13, color: Colors.red),
+                style: GoogleFonts.openSans(
+                  fontSize: 13,
+                  color: Colors.black,
+                ),
               ),
             ],
           ),

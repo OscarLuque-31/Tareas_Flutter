@@ -39,21 +39,6 @@ class MyApp extends StatelessWidget {
                 "https://github.com/OscarLuque-31/Tarea1_Flutter.git",
                 style: GoogleFonts.openSans(fontSize: 13, color: Colors.red),
               ),
-              const SizedBox(height: 30),
-              Text(
-                "Iconos",
-                style: GoogleFonts.openSans(fontSize: 20,color: Colors.black),),
-              const SizedBox(height: 5),
-              const Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
-                  Icon(Icons.home, size: 40, color: Colors.blue),
-                  Icon(Icons.phone, size: 40, color: Colors.green),
-                  Icon(Icons.email, size: 40, color: Colors.red),
-                  Icon(Icons.access_alarm, size: 40, color: Colors.orange),
-                  Icon(Icons.account_circle, size: 40, color: Colors.purple),
-                ],
-              )
             ],
           ),
         ),

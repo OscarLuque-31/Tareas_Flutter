@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'MenuLateral.dart';
 
 class Enlace1 extends StatelessWidget {
   const Enlace1({super.key});
@@ -10,7 +9,6 @@ class Enlace1 extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Imagenes en columna"),
       ),
-      drawer: const MenuLateral(),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceAround,

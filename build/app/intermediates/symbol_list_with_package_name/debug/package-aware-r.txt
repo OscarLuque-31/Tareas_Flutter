@@ -1,4 +1,4 @@
-com.example.actividad01_flutter_oscarluque
+com.example.flutter_clon_instagram
 anim fragment_fast_out_extra_slow_in
 animator fragment_close_enter
 animator fragment_close_exit

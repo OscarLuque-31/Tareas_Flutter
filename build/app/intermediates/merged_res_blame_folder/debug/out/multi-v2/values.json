@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.actividad01_flutter_oscarluque.app-mergeDebugResources-24:/values/values.xml",
+            "outputFile": "com.example.flutter_clon_instagram.app-mergeDebugResources-24:/values/values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\oscar\\.gradle\\caches\\transforms-3\\3e4063b07db37bd08626b21245b0f82d\\transformed\\jetified-activity-1.8.1\\res\\values\\values.xml",
@@ -146,7 +146,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\oscar\\Desktop\\Instituto\\2DAM\\ProgramacionMultimedia\\actividad01_flutter_oscarluque\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\oscar\\Desktop\\Instituto\\2DAM\\ProgramacionMultimedia\\flutter_clon_instagram\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

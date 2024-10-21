@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.actividad01_flutter_oscarluque.app-mergeDebugResources-24:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.example.flutter_clon_instagram.app-mergeDebugResources-24:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\oscar\\Desktop\\Instituto\\2DAM\\ProgramacionMultimedia\\actividad01_flutter_oscarluque\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\Users\\oscar\\Desktop\\Instituto\\2DAM\\ProgramacionMultimedia\\flutter_clon_instagram\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

@@ -1,10 +1,10 @@
 # Project-level configuration.
 cmake_minimum_required(VERSION 3.14)
-project(actividad01_flutter_oscarluque LANGUAGES CXX)
+project(flutter_clon_instagram LANGUAGES CXX)
 
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
-set(BINARY_NAME "actividad01_flutter_oscarluque")
+set(BINARY_NAME "flutter_clon_instagram")
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.

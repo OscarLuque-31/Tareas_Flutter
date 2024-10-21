@@ -1,12 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-    
-    <uses-permission android:name="android.permission.INTERNET"/>
-
     <application
-        android:label="actividad01_flutter_oscarluque"
+        android:label="flutter_clon_instagram"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
-            <activity
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:launchMode="singleTop"

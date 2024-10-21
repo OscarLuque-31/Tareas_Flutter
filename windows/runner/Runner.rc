@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "actividad01_flutter_oscarluque" "\0"
+            VALUE "FileDescription", "flutter_clon_instagram" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "actividad01_flutter_oscarluque" "\0"
+            VALUE "InternalName", "flutter_clon_instagram" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "actividad01_flutter_oscarluque.exe" "\0"
-            VALUE "ProductName", "actividad01_flutter_oscarluque" "\0"
+            VALUE "OriginalFilename", "flutter_clon_instagram.exe" "\0"
+            VALUE "ProductName", "flutter_clon_instagram" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

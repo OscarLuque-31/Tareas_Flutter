@@ -4,7 +4,7 @@
             "outputFile": "com.example.actividad01_flutter_oscarluque.app-mergeReleaseResources-24:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\oscar\\Desktop\\Instituto\\2DAM\\ProgramacionMultimedia\\actividad01_flutter_oscarluque\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\Users\\oscar\\Desktop\\Instituto\\2DAM\\ProgramacionMultimedia\\Tareas_Flutter\\actividad01_contadorydrawer\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

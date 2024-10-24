@@ -1,4 +1,4 @@
-#Mon Oct 07 13:17:18 CEST 2024
-base.0=C\:\\Users\\oscar\\Desktop\\Instituto\\2DAM\\ProgramacionMultimedia\\actividad01_flutter_oscarluque\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+#Thu Oct 24 13:11:43 CEST 2024
+base.0=C\:\\Users\\oscar\\Desktop\\Instituto\\2DAM\\ProgramacionMultimedia\\Tareas_Flutter\\actividad01_contadorydrawer\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

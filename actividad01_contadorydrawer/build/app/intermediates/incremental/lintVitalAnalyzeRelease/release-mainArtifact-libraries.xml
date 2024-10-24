@@ -1,13 +1,13 @@
 <libraries>
   <library
-      name="__local_aars__:C:\Users\oscar\Desktop\Instituto\2DAM\ProgramacionMultimedia\actividad01_flutter_oscarluque\build\app\intermediates\flutter\release\libs.jar:unspecified@jar"
-      jars="C:\Users\oscar\Desktop\Instituto\2DAM\ProgramacionMultimedia\actividad01_flutter_oscarluque\build\app\intermediates\flutter\release\libs.jar"
-      resolved="__local_aars__:C:\Users\oscar\Desktop\Instituto\2DAM\ProgramacionMultimedia\actividad01_flutter_oscarluque\build\app\intermediates\flutter\release\libs.jar:unspecified"/>
+      name="__local_aars__:C:\Users\oscar\Desktop\Instituto\2DAM\ProgramacionMultimedia\Tareas_Flutter\actividad01_contadorydrawer\build\app\intermediates\flutter\release\libs.jar:unspecified@jar"
+      jars="C:\Users\oscar\Desktop\Instituto\2DAM\ProgramacionMultimedia\Tareas_Flutter\actividad01_contadorydrawer\build\app\intermediates\flutter\release\libs.jar"
+      resolved="__local_aars__:C:\Users\oscar\Desktop\Instituto\2DAM\ProgramacionMultimedia\Tareas_Flutter\actividad01_contadorydrawer\build\app\intermediates\flutter\release\libs.jar:unspecified"/>
   <library
-      name="C:\Users\oscar\Desktop\Instituto\2DAM\ProgramacionMultimedia\actividad01_flutter_oscarluque\android@@:path_provider_android::release"
-      jars="C:\Users\oscar\Desktop\Instituto\2DAM\ProgramacionMultimedia\actividad01_flutter_oscarluque\build\path_provider_android\.transforms\7ee3e3cc345e9f8af710fec48b7e4a6e\transformed\out\jars\classes.jar;C:\Users\oscar\Desktop\Instituto\2DAM\ProgramacionMultimedia\actividad01_flutter_oscarluque\build\path_provider_android\.transforms\7ee3e3cc345e9f8af710fec48b7e4a6e\transformed\out\jars\libs\R.jar"
+      name="C:\Users\oscar\Desktop\Instituto\2DAM\ProgramacionMultimedia\Tareas_Flutter\actividad01_contadorydrawer\android@@:path_provider_android::release"
+      jars="C:\Users\oscar\Desktop\Instituto\2DAM\ProgramacionMultimedia\Tareas_Flutter\actividad01_contadorydrawer\build\path_provider_android\.transforms\25074e47166a5737a9a3972c11613e51\transformed\out\jars\classes.jar;C:\Users\oscar\Desktop\Instituto\2DAM\ProgramacionMultimedia\Tareas_Flutter\actividad01_contadorydrawer\build\path_provider_android\.transforms\25074e47166a5737a9a3972c11613e51\transformed\out\jars\libs\R.jar"
       resolved="io.flutter.plugins.pathprovider:path_provider_android:unspecified"
-      folder="C:\Users\oscar\Desktop\Instituto\2DAM\ProgramacionMultimedia\actividad01_flutter_oscarluque\build\path_provider_android\.transforms\7ee3e3cc345e9f8af710fec48b7e4a6e\transformed\out"
+      folder="C:\Users\oscar\Desktop\Instituto\2DAM\ProgramacionMultimedia\Tareas_Flutter\actividad01_contadorydrawer\build\path_provider_android\.transforms\25074e47166a5737a9a3972c11613e51\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

@@ -1,0 +1,10 @@
+export 'home_screen.dart';
+export 'instagram.dart';
+export 'contador.dart';
+export 'enlace1.dart';
+export 'enlace2.dart';
+export 'enlace3.dart';
+export 'drawer.dart';
+export 'juegoimagenes.dart';
+export 'piramide.dart';
+export 'desafio.dart';

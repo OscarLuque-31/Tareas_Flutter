@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: 'Óscar Luque Hidalgo',
+      title: 'Contador',
       home: MiContador(),
     );
   }
@@ -47,7 +47,7 @@ class _MiContadorState extends State<MiContador> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Center(child: Text("Óscar Luque Hidalgo")),
+        title: const Text("Contador"),
       ),
       drawer: const MenuLateral(),
       body: Center(
@@ -56,26 +56,34 @@ class _MiContadorState extends State<MiContador> {
           style: const TextStyle(fontSize: 22),
         ),
       ),
-      floatingActionButton: Row(
-        mainAxisAlignment: MainAxisAlignment.end,
-        children: <Widget>[
-          FloatingActionButton(
-            onPressed: decrementar,
-            tooltip: 'Decrementar',
-            child: const Icon(Icons.remove),
-          ),
-          const SizedBox(width: 10),
-          FloatingActionButton(
-            onPressed: incrementar,
-            tooltip: 'Incrementar',
-            child: const Icon(Icons.add),
-          ),
-          const SizedBox(width: 10),
-          FloatingActionButton(
+      bottomNavigationBar: Padding(
+        padding: const EdgeInsets.all(8.0), // Añadido para un espaciado más cómodo
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: <Widget>[
+            ElevatedButton(
+              onPressed: decrementar,
+              style: ElevatedButton.styleFrom(
+                padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+              ),
+              child: const Icon(Icons.remove, size: 30),
+            ),
+            ElevatedButton(
+              onPressed: incrementar,
+              style: ElevatedButton.styleFrom(
+                padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+              ),
+              child: const Icon(Icons.add, size: 30),
+            ),
+            ElevatedButton(
               onPressed: restablecer,
-              tooltip: 'Restablecer',
-              child: const Icon(Icons.restart_alt_outlined))
-        ],
+              style: ElevatedButton.styleFrom(
+                padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+              ),
+              child: const Icon(Icons.restart_alt_outlined, size: 30),
+            ),
+          ],
+        ),
       ),
     );
   }

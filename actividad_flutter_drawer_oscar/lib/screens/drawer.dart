@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../routes/routes.dart'; // Importa la clase AppRoutes
 
 class MenuLateral extends StatelessWidget {
   const MenuLateral({super.key});
@@ -32,7 +33,7 @@ class MenuLateral extends StatelessWidget {
             ),
             onTap: () {
               Navigator.of(context).pop(); // Cerrar Drawer
-              Navigator.pushNamed(context, '/'); // Navegar a la página inicial
+              Navigator.pushNamed(context, AppRoutes.home); // Usa la constante
             },
           ),
           // Entrada para Enlace1
@@ -44,7 +45,7 @@ class MenuLateral extends StatelessWidget {
             ),
             onTap: () {
               Navigator.of(context).pop();
-              Navigator.pushNamed(context, '/enlace1'); // Usar ruta nombrada
+              Navigator.pushNamed(context, AppRoutes.enlace1); // Usa la constante
             },
           ),
           // Entrada para Enlace2
@@ -56,7 +57,7 @@ class MenuLateral extends StatelessWidget {
             ),
             onTap: () {
               Navigator.of(context).pop();
-              Navigator.pushNamed(context, '/enlace2');
+              Navigator.pushNamed(context, AppRoutes.enlace2);
             },
           ),
           // Entrada para Enlace3
@@ -68,7 +69,7 @@ class MenuLateral extends StatelessWidget {
             ),
             onTap: () {
               Navigator.of(context).pop();
-              Navigator.pushNamed(context, '/enlace3');
+              Navigator.pushNamed(context, AppRoutes.enlace3);
             },
           ),
           // Entrada para Desafío
@@ -80,7 +81,7 @@ class MenuLateral extends StatelessWidget {
             ),
             onTap: () {
               Navigator.of(context).pop();
-              Navigator.pushNamed(context, '/desafio');
+              Navigator.pushNamed(context, AppRoutes.desafio);
             },
           ),
           // Entrada para Pirámide
@@ -92,7 +93,7 @@ class MenuLateral extends StatelessWidget {
             ),
             onTap: () {
               Navigator.of(context).pop();
-              Navigator.pushNamed(context, '/piramide');
+              Navigator.pushNamed(context, AppRoutes.piramide);
             },
           ),
           // Entrada para Contador
@@ -104,7 +105,7 @@ class MenuLateral extends StatelessWidget {
             ),
             onTap: () {
               Navigator.of(context).pop();
-              Navigator.pushNamed(context, '/contador');
+              Navigator.pushNamed(context, AppRoutes.contador);
             },
           ),
           // Entrada para Instagram
@@ -116,7 +117,7 @@ class MenuLateral extends StatelessWidget {
             ),
             onTap: () {
               Navigator.of(context).pop();
-              Navigator.pushNamed(context, '/instagram');
+              Navigator.pushNamed(context, AppRoutes.instagram);
             },
           ),
           // Entrada para Juego Imágenes
@@ -128,7 +129,7 @@ class MenuLateral extends StatelessWidget {
             ),
             onTap: () {
               Navigator.of(context).pop();
-              Navigator.pushNamed(context, '/juegoimagenes');
+              Navigator.pushNamed(context, AppRoutes.juegoImagenes);
             },
           ),
         ],

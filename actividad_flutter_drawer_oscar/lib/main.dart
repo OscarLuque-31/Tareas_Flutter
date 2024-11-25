@@ -1,5 +1,5 @@
-import 'screens/screens.dart';
 import 'package:flutter/material.dart';
+import 'routes/routes.dart'; 
 
 void main() {
   runApp(const MyApp());
@@ -21,18 +21,8 @@ class MyApp extends StatelessWidget {
           foregroundColor: Colors.white,
         ),
       ),
-      initialRoute: '/', // Página inicial
-      routes: {
-        '/': (context) => const HomePage(),
-        '/enlace1': (context) => const Enlace1(),
-        '/enlace2': (context) => const Enlace2(),
-        '/enlace3': (context) => const Enlace3(),
-        '/desafio': (context) => const Desafio(),
-        '/piramide': (context) => const Piramide(),
-        '/contador': (context) => const MiContador(),
-        '/instagram': (context) => const Instagram(),
-        '/juegoimagenes': (context) => const JuegoImagenes(),
-      },
+      initialRoute: AppRoutes.home, 
+      routes: AppRoutes.routes, 
     );
   }
 }

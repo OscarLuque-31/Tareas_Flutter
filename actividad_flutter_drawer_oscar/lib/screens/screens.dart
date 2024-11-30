@@ -8,3 +8,4 @@ export 'drawer.dart';
 export 'juegoimagenes.dart';
 export 'piramide.dart';
 export 'desafio.dart';
+export 'sieteymedio.dart';

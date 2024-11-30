@@ -132,6 +132,18 @@ class MenuLateral extends StatelessWidget {
               Navigator.pushNamed(context, AppRoutes.juegoImagenes);
             },
           ),
+          // Entrada para Juego Siete y Medio
+          ListTile(
+            leading: const Icon(Icons.games_outlined, color: Colors.white),
+            title: const Text(
+              "Siete y Medio",
+              style: TextStyle(color: Colors.white),
+            ),
+            onTap: () {
+              Navigator.of(context).pop();
+              Navigator.pushNamed(context, AppRoutes.juegoSieteYMedio);
+            },
+          ),
         ],
       ),
     );

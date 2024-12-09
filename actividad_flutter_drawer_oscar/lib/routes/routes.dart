@@ -13,6 +13,7 @@ class AppRoutes {
   static const String instagram = '/instagram';
   static const String juegoImagenes = '/juegoimagenes';
   static const String juegoSieteYMedio = '/sieteymedio';
+  static const String formulario = '/formulario';
 
   // Mapa de rutas
   static final Map<String, WidgetBuilder> routes = {
@@ -26,5 +27,6 @@ class AppRoutes {
     instagram: (context) => const Instagram(),
     juegoImagenes: (context) => const JuegoImagenes(),
     juegoSieteYMedio: (context) =>  const SieteYMedio(),
+    formulario: (context) => const FormularioPersonalizado()
   };
 }

@@ -1,4 +1,4 @@
-#Sun Nov 24 20:15:07 CET 2024
+#Sat Nov 30 17:13:26 CET 2024
 base.0=C\:\\Users\\oscar\\Desktop\\Instituto\\2DAM\\ProgramacionMultimedia\\Tareas_Flutter\\actividad_flutter_drawer_oscar\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

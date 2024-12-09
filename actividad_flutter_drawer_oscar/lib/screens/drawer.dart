@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../routes/routes.dart'; // Importa la clase AppRoutes
+import '../routes/routes.dart';
 
 class MenuLateral extends StatelessWidget {
   const MenuLateral({super.key});
@@ -142,6 +142,18 @@ class MenuLateral extends StatelessWidget {
             onTap: () {
               Navigator.of(context).pop();
               Navigator.pushNamed(context, AppRoutes.juegoSieteYMedio);
+            },
+          ),
+          // Entrada para Juego Siete y Medio
+          ListTile(
+            leading: const Icon(Icons.format_align_center, color: Colors.white),
+            title: const Text(
+              "Formulario",
+              style: TextStyle(color: Colors.white),
+            ),
+            onTap: () {
+              Navigator.of(context).pop();
+              Navigator.pushNamed(context, AppRoutes.formulario);
             },
           ),
         ],

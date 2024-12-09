@@ -1,3 +1,4 @@
+import 'package:actividad_flutter_oscarluque/screens/drawer.dart';
 import 'package:flutter/material.dart';
 import 'dart:math';
 
@@ -178,6 +179,7 @@ class _SieteYMedioState extends State<SieteYMedio> {
       appBar: AppBar(
         title: const Text('Siete y Medio'),
       ),
+      drawer: const MenuLateral(),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
